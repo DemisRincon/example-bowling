@@ -1,0 +1,19 @@
+@import '../../Shared/styles/vars.scss';
+button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-family: $HeadFont;
+    font-weight: 700;
+    background-color:  rgba(35, 132, 223, 1);
+    outline: none;
+    &:hover{
+        background-color:  rgba(35, 132, 223, 0.75);
+        width: 220px;
+        height: 50px;
+    }
+
+}

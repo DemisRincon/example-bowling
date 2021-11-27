@@ -1,0 +1,28 @@
+{
+  "name": "kata-programacion-orientada-a-objetos-demisrincon",
+  "version": "1.0.0",
+  "description": "![BrightCoders](img/logo-bc.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrightCoders-Candidates/kata-programacion-orientada-a-objetos-DemisRincon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrightCoders-Candidates/kata-programacion-orientada-a-objetos-DemisRincon/issues"
+  },
+  "homepage": "https://github.com/BrightCoders-Candidates/kata-programacion-orientada-a-objetos-DemisRincon#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^10.0.1",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

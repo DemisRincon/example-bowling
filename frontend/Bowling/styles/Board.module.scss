@@ -1,0 +1,55 @@
+@import "../../Shared/styles/vars.scss";
+.BoardContainer {
+    border-radius: 5px;
+    border: 1px solid black;
+    border-right: none;
+    width: 70%;
+    height: 20%;
+    min-width: 900px;
+    display: flex;
+    font-family: $HeadFont;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    .Frame {
+        width: 10%;
+        border-right: 1px solid black;
+        .FrameNumber {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20%;
+            border-bottom: 1px solid black;
+            background-color: #eee;
+        }
+        .ScoreContainer {
+            height: 80%;
+            .ShotsContainer {
+                height: 50%;
+                display: flex;
+                .FirstShot {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .SecondShot {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                    border-left: 1px solid black;
+                    border-bottom: 1px solid black;
+                }
+                .BlackBg{
+                    background-color: black;
+                }
+            }
+            .PointsContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+            }
+        }
+    }
+}
